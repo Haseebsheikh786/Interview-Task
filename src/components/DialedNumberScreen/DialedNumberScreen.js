@@ -25,6 +25,12 @@ const DialedNumberScreen = () => {
     }
   }, [countdown, dispatch, navigate]);
 
+  useEffect(() => {
+    if (!dialedNumber) {
+      navigate("/");
+    }
+  }, [navigate]);
+
   return (
     <div className="dialed-number-screen-container">
       <div className="dialed-number-display">
