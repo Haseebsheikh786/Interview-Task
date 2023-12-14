@@ -1,0 +1,41 @@
+.call-log-screen-container {
+  max-width: 400px;
+  margin:2rem auto;
+  padding: 20px;
+  background-color: #222;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+.call-log-list {
+  list-style: none;
+  padding: 0;
+}
+
+.call-log-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #444;
+  border-radius: 10px;
+}
+
+.delete-icon {
+  cursor: pointer;
+}
+
+.Keypad-icon {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .call-log-screen-container {
+    width: 90%;
+  }
+}
